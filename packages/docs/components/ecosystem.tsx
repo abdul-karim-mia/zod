@@ -357,6 +357,12 @@ const poweredByZodProjects: ZodResource[] = [
     description: "MongoDB with a Zod schema as the single source of truth: it validates every write, types every query and defines what each endpoint accepts.",
     slug: "tserdeiro/mongozod",
   },
+  {
+    name: "dynotable-orm",
+    url: "https://dynotable.com/orm/zod",
+    description: "A type-safe DynamoDB ORM: a Zod 4 schema defines the item, types its keys, updates, conditions and queries, and validates every write.",
+    slug: "dynotable/dynamodb-orm",
+  },
 ];
 
 const zodUtilities: ZodResource[] = [
